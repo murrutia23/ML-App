@@ -1,0 +1,30 @@
+@import "../../assets/styles/colors";
+
+.Breadcrumb {
+  list-style: none;
+  font-size: 14px;
+  margin: 16px 0;
+  display: flex;
+  padding: 0;
+  color: $light-gray;
+
+  &__item {
+    margin-right: 8px;
+
+    &:last-child {
+      &::after {
+        display: none;
+      }
+    }
+
+    &::after {
+      content: ">";
+      margin-left: 8px;
+    }
+
+    a {
+      color: $light-gray;
+      text-decoration: none;
+    }
+  }
+}

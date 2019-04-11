@@ -1,0 +1,21 @@
+@import "../assets/styles/colors";
+@import "../assets/styles/varibles";
+
+.ProductList {
+  border-radius: $border-radius;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: $gap-med;
+  margin-bottom: 20px;
+
+  li {
+    border-bottom: #eee solid 2px;
+    margin-bottom: $gap-med;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}

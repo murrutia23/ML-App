@@ -1,0 +1,19 @@
+@import "../../assets/styles/colors";
+@import "../../assets/styles/varibles";
+
+.Price {
+  &__decimals {
+    font-size: large;
+    position: relative;
+    top: -12px;
+  }
+}
+
+.ProductList {
+  .Price {
+    &__decimals {
+      font-size: small;
+      top: -6px;
+    }
+  }
+}

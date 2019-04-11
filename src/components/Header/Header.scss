@@ -1,0 +1,41 @@
+@import "../../assets/styles/colors";
+
+.Header {
+  background-color: #ffe600;
+  height: 56px;
+  padding: 9px 0;
+
+  &__logo {
+    margin-right: 26px;
+  }
+
+  form {
+    display: flex;
+    height: 38px;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    flex: 1;
+  }
+
+  &__input-search {
+    border: none;
+    font-size: 18px;
+    padding: 0 16px;
+    color: #999;
+    outline-style: none;
+    flex: 1;
+
+    &::placeholder {
+      color: #999;
+    }
+  }
+
+  &__button-search {
+    background: #eee;
+    border: none;
+    width: 40px;
+    cursor: pointer;
+    outline-style: none;
+  }
+}
